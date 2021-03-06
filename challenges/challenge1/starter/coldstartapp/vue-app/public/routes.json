@@ -7,6 +7,10 @@
       "route": "/*",
       "serve": "/index.html",
       "statusCode": 200
+    },
+    {
+      "route": "/login",
+      "serve": "/.auth/login/github"
     }
   ],
   "platformErrorOverrides": [
